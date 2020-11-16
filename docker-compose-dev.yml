@@ -1,0 +1,14 @@
+version: "3.7"
+# tip: ports: <machine>:<container>
+services:
+  bemol-atende:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: bemol-atende-web-server
+    volumes:
+      - ./src:/app/src
+    ports:
+      - "8080:8080"
+      - "8181:8181"
+    command: npm run dev

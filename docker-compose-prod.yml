@@ -1,0 +1,11 @@
+version: "3.7"
+# tip: ports: <machine>:<container>
+services:
+  bemol-atende:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bemol-atende-web-server-prod
+    ports:
+      - "8083:8080"
+      - "8181:8181"
