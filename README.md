@@ -1,6 +1,6 @@
-# bemol-atende
+# baad-atende
 
-Bemol-atende project using node, typescript, express, lint, prettier, docker dev and prod.
+Baad-atende project using node, typescript, express, lint, prettier, docker dev and prod.
 
 Run development environment:
 
